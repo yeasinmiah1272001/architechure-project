@@ -1,0 +1,142 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/* share styles  */
+.text-light-gray{
+    color: #727272;
+}
+.section-title{
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    color: #131313;
+}
+.btn-primary{
+    width: 180px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF900E;
+padding: 20px 25px;
+font-size: 20px;
+font-weight: 400px;
+color: white;
+}
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 250px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-tittle{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+nav>ul{
+    display: flex;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500px;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+.banner-content{
+    margin: 0px auto;
+    text-align: center;
+    max-width: 700px;
+}
+.banner img{
+    width: 100%;
+    margin-top: 20px;
+}
+/* main section  */
+main{
+    max-width: 1440px;
+    margin: 70px auto;
+}
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+.teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.quick-list{
+    font-size: 45px;
+    font-weight: 500;
+}
+.text-fetures{
+    color: #FF900E;
+font-size: 45px;
+font-weight: 700;
+}
+.of-our{
+    color: var(--dark-01, #131313);
+font-size: 45px;
+font-weight: 700;
+}
+
+
+
+/* features section start */
+.features{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+.features-content .card{
+    border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+padding: 30px;
+margin-bottom: 20px;
+}
+
+
+
+
+
+/* facts section start */
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    
+}
+.cards{
+    border-radius: 8px;
+border: 1px solid #FF900E;
+text-align: center;
+color: var(--dark-03, #727272);
+font-size: 20px;
+font-weight: 600;
+padding: 30px;
+}
+/* sponser styles */
+.sponser{
+    text-align: center;
+}
+.sponser-img{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+/* sponser section end */
